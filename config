@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "enabled": false,
+  "testMode": false,
+  "placements": {
+    "banner": "R-M-REPLACE-BANNER",
+    "interstitial": "R-M-REPLACE-INTERSTITIAL",
+    "rewarded": "R-M-REPLACE-REWARDED",
+    "appopen": "R-M-REPLACE-APPOPEN"
+  },
+  "frequency": {
+    "interstitialSeconds": 90,
+    "firstInterstitialSeconds": 90,
+    "interstitialMinRounds": 2,
+    "appOpenSeconds": 180,
+    "backgroundSeconds": 30,
+    "appOpenMinVisits": 4
+  },
+  "maintenance": {
+    "enabled": false,
+    "blocking": true,
+    "title": "Технические работы",
+    "message": "Обновляем тренировочный центр. Пожалуйста, зайдите немного позже."
+  }
+}
